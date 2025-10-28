@@ -82,7 +82,7 @@ body {
     display: flex;
     transform: rotate(90deg);
     position: absolute;
-    margin-top: 29rem;
+    margin-top: 28rem;
     margin-right: 10rem;
     margin-left: 10rem;
     -webkit-text-stroke: 2px rgba(201, 236, 144, 0.875);
