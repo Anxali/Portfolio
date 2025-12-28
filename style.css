@@ -111,16 +111,17 @@ body {
   }
   .about-me .frame .boxes {
     width: 100%;
-    height: 100%;
+    height: 40%;
     position: relative;
     display: flex;
     position: relative;
   }
   .about-me .frame .boxes svg {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     transform: rotate(90deg);
     height: 8rem;
-    width: 50%;
+    width: 30%;
+    opacity: 0.5;
   }
   .about-me .frame .boxes .box1 {
     background-color: #670D2F;
@@ -130,13 +131,13 @@ body {
     border-radius: 0 0 0 50%;
   }
   .about-me .frame .boxes .box2 {
-    background-image: url(https://images.unsplash.com/photo-1761405378292-30f64ad6f60b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfHRvd0paRnNrcEdnfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=900);
+    background-image: url(./images/IMG_0135.jpg);
     border-radius: 50% 50% 0 0;
     border: #3A0519 5px inset;
     box-shadow: 10px 10px 15px #18230F;
-    height: 60%;
-    width: 60%;
-    margin-left: 6.5rem;
+    height: 15rem;
+    width: 70%;
+    margin-left: 5rem;
     margin-right: 6rem;
     margin-top: 2rem;
     position: absolute;
@@ -150,8 +151,27 @@ body {
   }
   .about-me .about-text .greeting-text {
     align-self: flex-end;
-    font-size: 1.2rem;
+    font-size: 3rem;
+    opacity: 0.5;
     font-weight: 500;
-    color: #000000;
+    color: #3A0519;
+  }
+  .about-me .about-text .content-text {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #3A0519;
+    font-weight: 300;
+    text-align: right;
+  }
+  .about-me .about-text .content-text .name {
+    font-weight: 600;
+    color: #670D2F;
+  }
+  .about-me .about-text .content-text .para-1 {
+    line-height: 2rem;
+  }
+  .about-me .about-text .content-text .para-2 {
+    line-height: 2.4rem;
   }
 }/*# sourceMappingURL=style.css.map */
