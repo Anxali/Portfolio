@@ -34,15 +34,25 @@ body{
             flex-direction: column;
             align-items: center;
             position: relative;
-            background-color: #3A0519;     
+            background-color: #3A0519;    
+            
+            .nav-div{
+                width: 100%;
+                opacity: .4;
+                background: white;
+                display: flex;
+                justify-content: space-around;
+                height: 3rem;
+                align-items: center;
+            }
 
             .portfolio-heading{
                 color: transparent;
                 position: absolute;
-                font-size: 4.5rem;
+                font-size: 4.2rem;
                 -webkit-text-stroke: 3px rgb(255, 255, 255);
                 font-weight: 900;
-                margin-top: 4rem;
+                margin-top: 7rem;
                 opacity: .35;
                 letter-spacing: -6px;
             }
@@ -50,24 +60,21 @@ body{
             .top-div{
                 height: 13rem;
                 width: 80%;
-                //background-color: #FFE8DB;
-                border: #FFE8DB 6px outset;
+                border:#FFE8DB 3px inset;
                 box-shadow: 2px 2px 10px #e2d7d7;
                 border-radius: 50% 0 50% 0 ;
-                margin-top: 10rem;
-                
-                
+                margin-top: 10rem;                 
             }
             
             .centre-circle{
-                margin-top: 4rem;
+                margin-top: 7rem;
                 padding: 4rem;
                 position: absolute;
                 
                 .circle{
                     width: 250px;
                     height: 250px;
-                    background-image: url(https://images.unsplash.com/photo-1759354192456-71975b190c51?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=900);
+                    background-image: url(./images/IMG_0135.jpg);
                     background-size: cover;
                     background-position: center;
                     border-radius: 0 50% 0 50%;
@@ -78,18 +85,24 @@ body{
             
             .profession-heading{
                 color: transparent;
-                font-size: 5rem;
-                font-weight: 600;
-                display: flex;
-                transform: rotate(90deg);
                 position: absolute;
-                margin-top: 28rem;
-                margin-right: 10rem;
-                margin-left: 10rem;
-                -webkit-text-stroke: 2px #EF88AD;
-                opacity: 0.7;
-                text-shadow: #0000 5px 14px 12px;
-                letter-spacing: 10px;
+                font-size: 4rem;
+                -webkit-text-stroke: 3px rgb(255, 255, 255);
+                font-weight: 900;
+                margin-top: 29rem;
+                opacity: .65;
+                letter-spacing: -3px;
+            }
+
+            button{
+                background-color: #3A0519;
+                margin-top: 10rem;
+                color: #f1eac1;
+                height: 3rem;
+                width: 7rem;
+                border-radius: 2rem;
+                border: #8d7f85 1px solid;
+                
             }
               
         }
@@ -109,8 +122,7 @@ body{
             border: #000000 4px solid;
             display: flex;
             flex-direction: column;
-            
-            
+                        
             .boxes{
                 width: 100%;
                 height: 100%;
